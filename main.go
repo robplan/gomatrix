@@ -160,8 +160,8 @@ func main() {
 	}
 	screen.HideCursor()
 	screen.SetStyle(tcell.StyleDefault.
-		Background(tcell.ColorBlack).
-		Foreground(tcell.ColorBlack))
+		Background(tcell.ColorGray).
+		Foreground(tcell.ColorGray))
 	screen.Clear()
 
 	// StreamDisplay manager
